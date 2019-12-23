@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="page-container">
+  {% include 'shared/nav.html' %}
+
+  <div class="main-img"
+    style="background-image: url({% static 'images/hero.png' %});">
+  </div>
+
+</div>
+
+{% endblock content %}

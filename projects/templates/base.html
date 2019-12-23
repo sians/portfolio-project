@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+    <head>
+        <title>Index</title>
+        <!-- <link href="main.css" rel="stylesheet"> -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+        <link rel="stylesheet" href="https://use.typekit.net/jna5nlb.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <section class="content">
+            {% block content %}
+            {% endblock content %}
+        </section>
+
+        <footer>
+        <p></p>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.page-container .navigation {
+  position: absolute;
+  top: -70px;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.navigation h4 {
+  font-size: 1.5rem;
+  letter-spacing: 9px;
+}
+
+.top {
+  text-align: center;
+  position: fixed;
+  left: 90px;
+  padding-top: 40px;
+  padding-top: 20px;
+}
+
+.right {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -20px;
+  top: 45%;
+  right: -38px;
+  top: 21%;
+}
+
+.left {
+  transform: rotate(270deg);
+  position: fixed;
+  top: 45%;
+  left: -10px;
+  top:  74%;
+  left: -35px;
+}
+
+div.home {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  left:0px;
+  top:0px;
+  background-size: cover;
+}

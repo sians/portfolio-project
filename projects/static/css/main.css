@@ -1,0 +1,25 @@
+@import 'components/nav.css';
+
+body {
+  font-family: "source-sans-pro", sans-serif;
+  font-style: normal;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-img {
+  margin: 70px;
+  height: calc(100vh - 140px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.page-container {
+  position: relative;
+}
