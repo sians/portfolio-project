@@ -1,0 +1,10 @@
+.project-container {
+  overflow: scroll;
+  display: flex;
+}
+
+.project-card {
+  width: 50%;
+  height: 50%;
+  /* background-color: blue; */
+}
